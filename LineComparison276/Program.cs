@@ -14,7 +14,7 @@
             int y2 = Convert.ToInt32(Console.ReadLine());
 
             double length = Math.Sqrt((x2 - x1) ^ 2 + (y2 - y1) ^ 2);
-            Console.WriteLine("Line of length is {0}", length);
+            Console.WriteLine("Line of length is: " + length);
 
         }
         
