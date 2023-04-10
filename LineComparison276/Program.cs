@@ -15,11 +15,7 @@
 
             double length = Math.Sqrt((x2 - x1) ^ 2 + (y2 - y1) ^ 2);
             Console.WriteLine("Line of length is: " + length);
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> UC2-Checkequality
             Console.WriteLine("Enter the value of x3 and y3");
             int x3 = Convert.ToInt32(Console.ReadLine());
             int y3 = Convert.ToInt32(Console.ReadLine());
