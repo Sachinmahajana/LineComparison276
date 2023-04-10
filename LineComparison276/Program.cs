@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Line Comparison Problem");
-            //UC2-Checkequality
+            //UC3-Compareline
             Console.WriteLine("Enter the value of x1 and y1");
             int x1 = Convert.ToInt32(Console.ReadLine());
             int y1 = Convert.ToInt32(Console.ReadLine());
@@ -29,6 +29,14 @@
             if (length.Equals(line2))
             {
                 Console.WriteLine("Both line length are equal");
+            }
+            else if (length.CompareTo(line2) == 1)
+            {
+                Console.WriteLine("Length of line is greater than line2 of line");
+            }
+            else if(length.CompareTo(line2) == -1)
+            {
+                Console.WriteLine("Length of line is less than line2 of line");
             }
             else
             {
